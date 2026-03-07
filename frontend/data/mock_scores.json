@@ -1,0 +1,25 @@
+{
+    "route_scores": {
+      "downtown": {
+        "overall": 85,
+        "wheelchair": 90,
+        "vision": 75,
+        "hearing": 95,
+        "elderly": 80
+      },
+      "suburban": {
+        "overall": 78,
+        "wheelchair": 70,
+        "vision": 80,
+        "hearing": 90,
+        "elderly": 75
+      }
+    },
+    "safety_metrics": {
+      "crime_rate": "low",
+      "lighting": "good",
+      "traffic": "moderate",
+      "emergency_access": "excellent"
+    }
+  }
+  

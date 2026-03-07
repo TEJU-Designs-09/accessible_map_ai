@@ -1,0 +1,33 @@
+{
+    "saved_routes": [
+      {
+        "name": "Home to Office",
+        "start": "123 Main St",
+        "end": "456 Business Ave",
+        "accessibility_score": 92,
+        "preferred": true
+      },
+      {
+        "name": "Hospital Route",
+        "start": "Home",
+        "end": "City Medical Center",
+        "accessibility_score": 95,
+        "preferred": false
+      },
+      {
+        "name": "Shopping Center",
+        "start": "Home", 
+        "end": "Mall Plaza",
+        "accessibility_score": 88,
+        "preferred": false
+      }
+    ],
+    "recent_searches": [
+      "Central Station",
+      "City Library",
+      "Museum District",
+      "Sports Complex",
+      "Airport Terminal"
+    ]
+  }
+  

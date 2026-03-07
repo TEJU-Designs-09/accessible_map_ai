@@ -1,0 +1,34 @@
+{
+    "reports": [
+      {
+        "id": 1,
+        "type": "obstacle",
+        "location": "5th Avenue & Main",
+        "description": "Construction blocking sidewalk",
+        "severity": "high",
+        "timestamp": "2024-01-15 14:30",
+        "status": "active",
+        "image": null,
+        "reporter": "User123"
+      },
+      {
+        "id": 2,
+        "type": "improvement",
+        "location": "Central Park Entrance",
+        "description": "New ramp installed",
+        "severity": "low",
+        "timestamp": "2024-01-15 10:15",
+        "status": "resolved",
+        "image": null,
+        "reporter": "User456"
+      }
+    ],
+    "categories": [
+      "Obstacle",
+      "Hazard",
+      "Improvement",
+      "Suggestion",
+      "Complaint"
+    ]
+  }
+  
