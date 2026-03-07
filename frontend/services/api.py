@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://accessible-map-ai-backend.onrender.com"
 
 def get_route(start, end, profile, stairs, audio, crowds):
 
