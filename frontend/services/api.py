@@ -1,8 +1,8 @@
 import requests
 
-BASE_URL = "https://accessible-map-ai-backend.onrender.com"
+BASE_URL = "https://accessible-map-ai-backend-fey0.onrender.com"
 
-def get_route(start, end, profile, stairs, audio, crowds):
+def get_route(start, end, profile=None, stairs=False, audio=False, crowds=False):
 
     payload = {
         "start": start,
@@ -18,6 +18,10 @@ def get_route(start, end, profile, stairs, audio, crowds):
 
         if res.status_code == 200:
             return res.json()
+        else:
+            print("API error:", res.status_code)
 
-    except:
-        return None
+    except Exception as e:
+        print("Connection error:", e)
+
+    return None
