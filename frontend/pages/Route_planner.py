@@ -7,13 +7,18 @@ from components import render_route_card
 
 from services.api import get_route
 from utils import get_mock_routes, generate_mock_coordinates
-import pyttsx3
-
-engine = pyttsx3.init()
+from gtts import gTTS
+import base64
+import os
 
 def speak(text):
-    engine.say(text)
-    engine.runAndWait()
+    tts = gTTS(text)
+    tts.save("voice.mp3")
+
+    audio_file = open("voice.mp3", "rb")
+    audio_bytes = audio_file.read()
+
+    st.audio(audio_bytes, format="audio/mp3")
     
     
 st.set_page_config(page_title="Route Planner - Accessible Map AI", layout="wide")
