@@ -1,8 +1,7 @@
 """Safety Score page - Route and area safety analytics"""
 
 import streamlit as st
-import plotly.graph_objects as go
-import plotly.express as px
+import pandas as pd
 
 st.set_page_config(page_title="Safety Score - Accessible Map AI", layout="wide")
 
