@@ -46,3 +46,11 @@ def generate_timestamp(hours_ago=0):
     """Generate timestamp for mock data"""
     time = datetime.now() - timedelta(hours=hours_ago)
     return time.strftime("%Y-%m-%d %H:%M:%S")
+
+def get_mock_traffic():
+    return [
+        {"area": "Downtown", "traffic": 70},
+        {"area": "Market", "traffic": 55},
+        {"area": "Highway", "traffic": 85},
+        {"area": "School Zone", "traffic": 40},
+    ]
