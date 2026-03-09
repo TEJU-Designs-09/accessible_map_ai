@@ -1,8 +1,7 @@
 """Traffic Intelligence page - Real-time traffic and congestion info"""
 
 import streamlit as st
-import plotly.graph_objects as go
-import plotly.express as px
+import pandas as pd
 from frontend.utils.helpers import get_mock_traffic
 
 st.set_page_config(page_title="Traffic Intelligence - Accessible Map AI", layout="wide")
