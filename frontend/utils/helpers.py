@@ -48,9 +48,9 @@ def generate_timestamp(hours_ago=0):
     return time.strftime("%Y-%m-%d %H:%M:%S")
 
 def get_mock_traffic():
-    return [
-        {"area": "Downtown", "traffic": 70},
-        {"area": "Market", "traffic": 55},
-        {"area": "Highway", "traffic": 85},
-        {"area": "School Zone", "traffic": 40},
-    ]
+    return {
+        "congestion_level": "Medium",
+        "average_speed": 32,
+        "incidents": 4,
+        "estimated_delay": 12
+    }
