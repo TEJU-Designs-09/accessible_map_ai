@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-from utils import get_mock_traffic
+from utils.helpers import get_mock_traffic
 
 st.set_page_config(page_title="Traffic Intelligence - Accessible Map AI", layout="wide")
 
