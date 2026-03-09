@@ -1,8 +1,7 @@
 """Dashboard page - Main overview of accessibility metrics"""
 
 import streamlit as st
-import plotly.graph_objects as go
-import plotly.express as px
+import pandas as pd
 from components import render_alerts_panel, render_score_badge
 from utils import get_mock_routes, get_mock_reports
 
